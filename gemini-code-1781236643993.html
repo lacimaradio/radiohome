@@ -170,7 +170,7 @@
 
                 <!-- Audio oculto - COLOCA TU URL AQUÍ -->
                 <audio id="radioAudio" preload="none">
-                    <source src="https://stream.zeno.fm/0enb8vaznpouv">
+                    <source src="https://admin.a-ortiz.org/listen/la_cima_radio/radio.mp3">
                 </audio>
 
                 <!-- Control de Volumen Grande (Cómodo para móviles) -->
@@ -296,11 +296,11 @@
 
         // CONFIGURACIÓN DE LA URL DE TU STREAMING
         // Cambia 'TU_URL_DE_STREAMING' por tu enlace real (ejemplo: http://IP:PUERTO/stream)
-        const STREAM_URL = "https://stream.zeno.fm/0enb8vaznpouv"; 
+        const STREAM_URL = "https://admin.a-ortiz.org/listen/la_cima_radio/radio.mp3"; 
 
         // FUNCIÓN AUTOMÁTICA PARA LEER EL NOMBRE DE LA CANCIÓN AL AIRE
         function actualizarCancionActual() {
-            if (!isPlaying || STREAM_URL === "https://stream.zeno.fm/0enb8vaznpouv") return;
+            if (!isPlaying || STREAM_URL === "https://admin.a-ortiz.org/listen/la_cima_radio/radio.mp3") return;
 
             // Intenta extraer automáticamente los metadatos públicos del servidor Shoutcast/Icecast (7.html / status.json)
             // Nota: Dependiendo del proveedor de streaming, esta URL final puede variar un poco
